@@ -12,4 +12,4 @@ jobs:
         with:
           asoc_key: ${{secrets.ASOC_KEY}}
           asoc_secret: ${{secrets.ASOC_SECRET}}
-          application_id: ${{vars.APPID_SAST}}
+          application_id: ${{vars.ASOC_APPID_SAST}}
