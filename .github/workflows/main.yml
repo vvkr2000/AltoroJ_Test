@@ -15,10 +15,10 @@ jobs:
           asoc_secret: ${{secrets.ASOC_SECRET}}
           application_id: ${{vars.ASOC_APPID_DAST}}
           dynamic_scan_type: dast
-          starting_URL: 'http://192.168.68.227:8088'
+          starting_URL: 'https://demo.testfire.net/?mode=demo'
           login_method: userpass
-          login_user: admin
-          login_password: admin
+          login_user: jsmith
+          login_password: demo1234
           network: public
           fail_for_noncompliance: false
           wait_for_analysis: true
