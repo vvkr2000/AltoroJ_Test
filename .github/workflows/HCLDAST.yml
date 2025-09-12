@@ -1,6 +1,6 @@
 name: HCL AppScan DAST Analyzer
-  # You may pin to the exact commit or the version.
-  uses: HCL-TECH-SOFTWARE/appscan-dast-action@081cdab16bded4ba4ec8d73a3fefcec945c65af0
+    # You may pin to the exact commit or the version.
+    # uses: HCL-TECH-SOFTWARE/appscan-dast-action@081cdab16bded4ba4ec8d73a3fefcec945c65af0
   uses: HCL-TECH-SOFTWARE/appscan-dast-action@v1.0.7
   with:
     # baseURL of ASOC API
