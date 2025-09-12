@@ -4,7 +4,7 @@ name: HCL AppScan DAST Analyzer
   uses: HCL-TECH-SOFTWARE/appscan-dast-action@v1.0.7
   with:
     # baseURL of ASOC API
-    baseurl: # default is https://cloud.appscan.com
+    baseurl: https://cloud.appscan.com
     # API key for connecting to ASoC.
     asoc_key: 2dc996a0-1dd7-c402-b15a-7cbb998c0a16
     # Secret for connecting to ASoC.
