@@ -15,12 +15,12 @@ jobs:
           asoc_secret: ${{secrets.ASOC_SECRET}}
           application_id: ${{vars.ASOC_APPID_DAST}}
           dynamic_scan_type: dast
-          starting_URL: 'http://192.168.68.227:8088/?mode=demo'
+          starting_URL: 'http://192.168.69.121:8088/?mode=demo'
           login_method: userpass
           login_user: admin
           login_password: admin
           network: private
-          presence_id: 0a9097ff-aad2-ef11-88cd-00224851d275
+          presence_id: 5df05d9c-f38f-f011-b485-000d3a033e9c
           fail_for_noncompliance: false
           wait_for_analysis: true
       - uses: actions/upload-artifact@v4
