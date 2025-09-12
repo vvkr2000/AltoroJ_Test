@@ -1,15 +1,11 @@
-name: "HCL AppScan SAST"
-on:
-  workflow_dispatch
-jobs:
-  scan:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Run AppScan SAST scan
-        uses: HCL-TECH-SOFTWARE/appscan-sast-action@v1.0.6
-        with:
-          asoc_key: ${{secrets.ASOC_KEY}}
-          asoc_secret: ${{secrets.ASOC_SECRET}}
-          application_id: ${{vars.ASOC_APPID_SAST}}
+name: AppScan SAST
+  # You may pin to the exact commit or the version.
+  # uses: alphayax/appscan-sast-action@6075e1382672511f58d00c6712d7f4206399f8c6
+  uses: alphayax/appscan-sast-action@v1
+  with:
+    # ASoC Key Secret
+    api-secret: 095db609-bc8e-74e9-e949-5c3a8a6279cb
+    # ASoC Key Id
+    api-id: qrjIZtoymL/jQ9VykamykKUF7F8xvDv5qTvfl0HWm4IM
+    # Application Id (guid)
+    application-id: 68917714-0a87-4be0-919a-a40072506be1
