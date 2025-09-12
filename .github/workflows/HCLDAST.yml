@@ -18,7 +18,7 @@ name: HCL AppScan DAST Analyzer
     # If dynamic_scan_type is set to "upload", then you will need to provide the .scan or .scant file here
     scan_or_scant_file: # optional
     # The starting URL of the DAST scan
-    starting_URL: # optional, default is https://demo.testfire.net?mode=demo
+    starting_URL: https://demo.testfire.net?mode=demo
     # Login Method of the scan, can be none, userpass, or recorded
     login_method: # optional, default is none
     # Optimization level: NoOptimization, Fast, Faster, Fastest
